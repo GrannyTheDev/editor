@@ -15,10 +15,10 @@ var LuaHighlightRules = function() {
 
     var functions = (
         "string|xpcall|package|tostring|print|wait|os|unpack|require|"+
-        "getfenv|setmetatable|next|assert|tonumber|io|rawequal|"+
+        "getfenv|getgenv|setmetatable|next|assert|tonumber|io|rawequal|request|"+
         "collectgarbage|getmetatable|module|rawset|math|debug|"+
-        "pcall|table|newproxy|type|coroutine|_G|select|gcinfo|"+
-        "pairs|rawget|loadstring|ipairs|_VERSION|dofile|setfenv|"+
+        "pcall|table|newproxy|type|coroutine|_G|select|gcinfo|hookmetamethod|setclipboard|"+
+        "pairs|rawget|loadstring|fireproximityprompt|fireclickdetector|firetouchinterest|writefile|readfile|delfile|delfolder|makefolder|game|ipairs|_VERSION|dofile|setfenv|"+
         "load|error|loadfile|"+
 
         "sub|upper|len|gfind|rep|find|match|char|dump|gmatch|"+
