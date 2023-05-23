@@ -14,7 +14,7 @@ var LuaHighlightRules = function() {
     var builtinConstants = ("true|false|nil|_G|_VERSION");
 
     var functions = (
-        "string|xpcall|package|tostring|print|os|unpack|require|"+
+        "string|xpcall|package|tostring|print|wait|os|unpack|require|"+
         "getfenv|setmetatable|next|assert|tonumber|io|rawequal|"+
         "collectgarbage|getmetatable|module|rawset|math|debug|"+
         "pcall|table|newproxy|type|coroutine|_G|select|gcinfo|"+
